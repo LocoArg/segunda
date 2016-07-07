@@ -1,0 +1,9 @@
+Los pasos para poder cargar una carpeta a GitHub
+git init "nombre del proyecto"
+cargar los archivos
+git add "todos los archivos" pueden ser los nuevos
+git commit -m "mensaje"
+en la pagina de GitHub debe existir el mismo repositorio con el mismo nombre que pusimos en el primer paso
+git remote add origin https://github.com/NombreUsuario/"nombre del proyecto".git
+por último subimos los archivos
+git push origin master
